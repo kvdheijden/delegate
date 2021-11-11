@@ -31,5 +31,5 @@ android {
 }
 
 dependencies {
-    dependencies group: 'com.kvdheijden.delegate', name: 'delegate-viewbinding', version: project.version
+    implementation project(path: ':delegate-viewbinding')
 }
