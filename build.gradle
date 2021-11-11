@@ -13,6 +13,10 @@ buildscript {
     }
 }
 
+allprojects {
+    group = 'com.kvdheijden.delegate'
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

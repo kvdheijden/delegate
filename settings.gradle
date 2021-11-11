@@ -9,5 +9,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "delegate"
-include ':delegate'
 include ':delegate-viewbinding'
