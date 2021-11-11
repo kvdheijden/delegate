@@ -14,7 +14,7 @@ buildscript {
 }
 
 allprojects {
-    group = 'com.kvdheijden.delegate'
+    group = 'com.kvdheijden'
 }
 
 task clean(type: Delete) {
